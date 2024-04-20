@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial;
+  background-image: url('../Images/background.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+body .container{
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+/*Portfolio*/
+.head,
+.profile{
+  display: grid;
+  justify-content: center;
+}
+.head h1{
+  text-transform: uppercase;
+  color: darkblue;
+  font-size: 30px bold;
+  margin: 25px 0 20px 0;
+}
+.head img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  top: 10px;
+  bottom: 10px;
+}
+.head h2{
+  color: blue;
+  margin: 10px 0;
+  text-align: center;
+  padding: 6px;
+}
+.head h2:hover{
+  border: 2px solid darkblue;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  padding: 4px;
+}
+.container .sub{
+  color: white;
+  background-color: blue;
+  margin: 0 10px 18px 10px;
+  padding: 5px;
+}
+
+/*Introduction*/
+.self-intro p{
+  margin: 0 10px 35px 10px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/*Educational Background*/
+.line{
+  display: block;
+  border: 1px solid black;
+  margin: 10px 2px;
+}
+.content-table{
+  margin: 10px 10px 20px 10px;
+}
+.content-table table{
+  border-collapse: collapse;
+  border: 1px solid white;
+  width: 100%;
+}
+.content-table table thead tr{
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+th, td{
+  padding: 8px;
+}
+
+/*Expertise*/
+.xpert ul{
+  list-style-type: square;
+  margin: 10px 50px;
+}
+
+/*Background*/
+.background-info p{
+  margin: 0 10px 15px 10px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/*Application*/
+.apps-use ol{
+  margin: 10px 50px 15px 50px;
+}
